@@ -15,6 +15,7 @@
 右子树是通过数组中最大值右边部分构造出的最大二叉树。
 通过给定的数组构建最大二叉树，并且输出这个树的根节点。
 */
+package Leetcode
 
 func constructMaximumBinaryTree(nums []int) *TreeNode {
 	midx := maxSlice(nums)
